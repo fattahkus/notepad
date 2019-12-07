@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahNote">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="judul"
+        android:inputType="text"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/etDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="deskripsi"
+        android:inputType="text"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50pt"
+        android:layout_height="30pt"
+        android:layout_marginBottom="88dp"
+        android:background="@color/green"
+        android:onClick="buAdd"
+        android:text="add"
+        android:layout_gravity="center"/>
+</LinearLayout>
